@@ -2,8 +2,8 @@
 board = [" " for _ in range(9)]
 
 # Symboly hráčů
-player1 = "O"
-player2 = "X"
+player1 = "X"
+player2 = "O"
 current_player = 2
 
 # Zobrazení hracího pole
@@ -70,4 +70,5 @@ while True:
         break
 
     # Přepnutí hráče přepiště current_player = na 1 nebo 2 podle počtu hráčů (Jestli tohle čtete můžete přepnout i do modu pro jednoho hráče, aby jste se mohly cítit sámy a mít deprese že nemáte kamarády ): )
+
     current_player = 2 if current_player == 1 else 1
